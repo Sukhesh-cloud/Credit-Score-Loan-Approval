@@ -1,0 +1,90 @@
+.home-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  .form input {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 15px auto;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  .loan-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1ff;
+    border: 2px dashed royalblue;
+    border-radius: 8px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+    
+  .history-container,.admin-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .history-container h2,.admin-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .history-container p,.admin-container p {
+    text-align: center;
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th, td {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
